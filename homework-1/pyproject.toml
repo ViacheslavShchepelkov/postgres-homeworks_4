@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "homework-1"
+version = "0.1.0"
+description = ""
+authors = ["Viacheslav Schepelkov <eldigor@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "homework_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2-binary = "^2.9.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
